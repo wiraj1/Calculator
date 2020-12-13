@@ -25,6 +25,9 @@ def calculator():
     elif opp == '**':
         print(str(num1)+" ** "+str(num2)+ " =", num1**num2)
 
+    elif opp == '%':
+        print(str(num1)+" % "+str(num2)+ " =", num1**num2)   
+    
     else:
         print('Wrong input')
 
